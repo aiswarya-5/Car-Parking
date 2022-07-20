@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial,Helvetica;	
+}
+body{
+	background-color:#F5F5F5;
+}
+.layer2{
+	padding-left: 600px;
+    	padding-top: 52px;
+	color:#ffffff;
+}
+.layer2 img{
+    	z-index: -1;
+    	position: absolute;
+	width: 523px;
+}
+h2{
+	margin-left: 209px;
+	margin-top:160px;
+}
+h5{
+	margin-left: 136px;
+}
+.layer2 button{
+	margin-top: 20px;
+    	margin-left: 214px;
+    	padding: 9px;
+    	border-radius: 22px;
+    	border: none;
+    	color: #3ba5e1;
+    	width: 97px;
+	cursor: pointer;
+}
+.layer1{
+	background-color:white;
+	width: 311px;
+    	border-radius: 13px;
+    	padding: 38px 45px;
+    	margin-left: 315px;
+    	margin-top: 106px;
+    	z-index: 1;
+    	position: absolute;
+}
+.heading{
+	text-decoration: underline;
+    	text-align: center;
+	color: slategrey;
+}
+input{
+    	border: none;
+    	vertical-align: super;	
+	padding-left: 15px;
+	font-size: 15px;
+}
+input:focus{
+	outline:none;
+}
+::placeholder{
+	color:#8c8c8c;
+}
+.material-icons{
+	color:#8c8c8c;
+}
+#name,#pass{
+	box-shadow: 0px 0px 5px #e0dede;
+	padding: 9px 26px;
+	margin: 16px;
+}
+#forget{
+	margin-top: 23px;
+    	font-size: 13px;
+    	padding-left: 13px;
+}
+#forget input{
+	vertical-align: top;
+}
+#forget a{
+	padding-left: 46px;
+}
+.layer1 button{
+	margin-top: 20px;
+    	margin-left: 94px;
+    	padding: 9px;
+    	border-radius: 6px;
+    	border: none;
+    	color: #3ba5e1;
+    	width: 97px;
+	cursor: pointer;
+}
+.layer1 button span{
+	vertical-align: middle;
+	padding-right: 7px;
+}
+#checkb{
+	padding-left: 8px;
+}

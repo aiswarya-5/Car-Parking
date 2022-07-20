@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial,Helvetica;	
+}
+body{
+	background-color:#F5F5F5;
+}
+.heading{
+	text-decoration: underline;
+    	text-align: center;
+	color: slategrey;
+}
+.layer1{
+	background-color:white;
+	width: 311px;
+    	border-radius: 13px;
+    	padding: 38px 45px;
+	margin-left: 381px;
+    	margin-top: 55px;
+    	z-index: 1;
+    	position: absolute;
+	box-shadow: 0px 0px 5px #e0dede;
+}
+input{
+    	border: none;
+    	vertical-align: super;	
+	padding-left: 15px;
+	font-size: 15px;
+}
+input:focus{
+	outline:none;
+}
+::placeholder{
+	color:#8c8c8c;
+}
+.material-icons{
+	color:#8c8c8c;
+}
+.name{
+	box-shadow: 0px 0px 5px #e0dede;
+	padding: 9px 26px;
+	margin: 16px;
+}
+.forget{
+	margin-top: 23px;
+    	font-size: 13px;
+    	padding-left: 13px;
+}
+.forget input{
+	vertical-align: top;
+}
+
+.layer1 button{
+	margin-top: 20px;
+    	margin-left: 94px;
+    	padding: 9px;
+    	border-radius: 6px;
+    	border: none;
+    	color: cadetblue;
+    	width: 97px;
+	cursor: pointer;
+}
+.layer1 button span{
+	vertical-align: middle;
+	padding-right: 7px;
+}
+#account{
+	margin-top: 11px;
+    	font-size: 13px;
+    	padding-left: 13px;
+}
+#checkb{
+	padding-left: 8px;
+}
+.layer2{
+	padding-left: 600px;
+    	padding-top: 22px;
+	color:white;
+}
+.layer2 img{
+    	z-index: -1;
+    	position: absolute;
+	width: 523px;
+}
+.layer2 button{
+	margin-top: 20px;
+    	margin-left: 214px;
+    	padding: 9px;
+    	border-radius: 22px;
+    	border: none;
+    	color: cadetblue;
+    	width: 97px;
+	cursor: pointer;
+}
