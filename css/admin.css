@@ -23,8 +23,9 @@ body{
     	border-radius: 14px;
     	border: 1px solid #8A8AFF;
     	background-color: #8A8AFF;
-    	color: white;
+    	color: #ffffff;
 	margin-left: 16px;
+	cursor:pointer;
 }
 .headernav .user{
 	background-color: rebeccapurple;
@@ -38,7 +39,7 @@ body{
     	margin-left: 108px;
     	border: 1px solid gray;
     	border-radius: 20px;
-	margin-right:17px;
+	margin-right:118px;
 }
 .middlepart input{
 	vertical-align: super;
@@ -51,14 +52,15 @@ body{
 	outline:none;
 }
 .mainbody img{
-	width: 100%;
-	z-index: -1;
+	width: 99.5%;
+    	z-index: -1;
     	position: absolute;
+	opacity: 0.6;
 }
 .heading{
 	font-size: 29px;
     	margin-bottom: 28px;
-    	color: brown;
+    	color: #a52a2a;
 }
 table{
 	border-collapse: collapse;
@@ -81,7 +83,7 @@ table button{
 	border-radius: 5px;
 	background-color: #ce3a6c;
     	padding: 6px;
-    	color: white;
+    	color: #ffffff;
     	border: none;
 }
 table .edit{

@@ -79,19 +79,18 @@ input:focus{
 #forget a{
 	padding-left: 46px;
 }
-.layer1 button{
+#submit{
 	margin-top: 20px;
     	margin-left: 94px;
     	padding: 9px;
     	border-radius: 6px;
-    	border: none;
-    	color: #3ba5e1;
+    	border: none;	
+    	background-color: #f0f0f0;
     	width: 97px;
 	cursor: pointer;
 }
-.layer1 button span{
-	vertical-align: middle;
-	padding-right: 7px;
+#submit input{
+    	color: #3ba5e1;
 }
 #checkb{
 	padding-left: 8px;

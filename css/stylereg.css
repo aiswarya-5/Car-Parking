@@ -83,13 +83,16 @@ input:focus{
     	position: absolute;
 	width: 523px;
 }
-.layer2 button{
+#submit{
 	margin-top: 20px;
-    	margin-left: 214px;
+    	margin-left: 94px;
     	padding: 9px;
-    	border-radius: 22px;
-    	border: none;
-    	color: cadetblue;
+    	border-radius: 6px;
+    	border: none;	
+    	background-color: #f0f0f0;
     	width: 97px;
 	cursor: pointer;
+}
+#submit input{
+    	color: #3ba5e1;
 }

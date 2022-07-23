@@ -8,30 +8,35 @@
 		<div class="container"> 
 			<div class="layer1">
 				<div class="heading">Create Account</div>
-					<div class="name">
-						<span class="material-icons">person</span>
-						<input type="text" placeholder="Input your user ID or email">
-					</div>
-					<div class="name">
-						<span class="material-icons">key</span>
-						<input type="password" placeholder="Input your password">
-					</div>
-					<div class="name">
-						<span class="material-icons">call</span>
-						<input type="text" placeholder="Input your Phone No">
-					</div>
-					<div class="name">
-						<span class="material-icons">directions_car</span>
-						<input type="password" placeholder="Input your vehicle No">
-					</div>
-					<div class="forget">
-						<input type="checkbox"><span id="checkb">I agree all the statements in</span>
-						<a href="#">Terms and service</a>
-					</div>
-					<button><span class="material-icons">save_as</span> SignUp</button>
-					<div id="account"> Have already an account?
-						<a href="#">Login Here</a>
-					</div>
+					<form action="park.htm">
+ 						<div class="name">
+ 							<span class="material-icons">person</span>
+							<input type="text" name="username" placeholder="Input your user ID or email">
+						</div>
+						<div class="name">
+							<span class="material-icons">key</span>
+							<input type="password" name="password" placeholder="Input your password">
+						</div>
+						<div class="name">
+							<span class="material-icons">call</span>
+								<input type="text" name="phoneno" placeholder="Input your Phone Number">
+						</div>
+						<div class="name">
+							<span class="material-icons">directions_car</span>
+							<input type="password" name="vehicleno" placeholder="Input your vehicle Number">
+						</div>
+						<div class="forget">
+							<input type="checkbox" name="terms"><span id="checkb">I agree all the statements in</span>
+							<a href="#">Terms and service</a>
+						</div>
+						<div id="submit">
+							<span class="material-icons">save_as</span>
+							<input type="submit" value="SignUp">
+						</div>	
+						<div id="account"> Have already an account?
+							<a href="file:///C:/Users/user/Desktop/parking/park.htm">Login Here</a>
+						</div>
+					</form>
 				
 			</div>
 			<div class="layer2">

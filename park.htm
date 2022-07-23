@@ -8,26 +8,30 @@
 		<div class="container"> 
 			<div class="layer1">
 				<div class="heading">Login Please</div>
-					<div id="name">
-						<span class="material-icons">mail</span>
-						<input type="text" placeholder="Input your user ID or email">
-					</div>
-					<div id="pass">
-						<span class="material-icons">key</span>
-						<input type="password" placeholder="Input your password">
-					</div>
-					<div id="forget">
-						<input type="checkbox"><span id="checkb">Remember me?</span>
-						<a href="#">Forgot password?</a>
-					</div>
-					<button><span class="material-icons">login</span> LogIn</button>
-				
+					<form action="admin.htm">
+						<div id="name">
+							<span class="material-icons">mail</span>
+							<input type="text" name="username" placeholder="Input your user ID or email">
+						</div>
+						<div id="pass">
+							<span class="material-icons">key</span>
+							<input type="password" name="password" placeholder="Input your password">
+						</div>
+						<div id="forget">
+							<input type="checkbox"><span id="checkb">Remember me?</span>
+								<a href="#">Forgot password?</a>
+						</div>
+						<div id="submit">
+							<span class="material-icons">login</span>
+							<input type="submit" value="LogIn">
+						</div>	
+					</form>				
 			</div>
 			<div class="layer2">
 				<img src="image/squarei.jpg">
 				<h2>Welcome</h2>
 				<h5>Enter your details and start journey with us!</h5>
-				<button>Signup</button>				
+				<a href="file:///C:/Users/user/Desktop/parking/registration.htm"><button>Signup</button></a>			
 			</div>  
 		</div>		
 	</body>
